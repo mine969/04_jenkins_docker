@@ -44,6 +44,7 @@ export default function Page() {
   return (
     <main className="container">
       <header className="header">
+        <h1 className="title">Hein Htet Zaw 6609533</h1>
         <h1 className="title">Attractions</h1>
         <p className="subtitle">Discover points of interest nearby</p>
       </header>
