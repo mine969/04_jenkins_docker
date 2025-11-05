@@ -2,13 +2,12 @@
   "name": "02_frontend",
   "version": "0.1.0",
   "private": true,
- "scripts": {
+  "scripts": {
     "dev": "next dev --turbopack -p 3000",
     "build": "next build --turbopack",
     "start": "next start -p 3000",
     "lint": "eslint"
   },
-
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
@@ -20,5 +19,11 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
 }
